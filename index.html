@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Talkies: Speech to Screen Magic</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="container">
-        <h1>✨ Magic Talkies: Speech to Screen Magic 🎬</h1>
-        <p>Upload an image and an audio file to make it speak!</p>
-        
-        <div class="upload-section">
-            <label>Choose Image:</label>
-            <input type="file" id="imageInput" accept="image/*" />
-            <label>Choose Audio:</label>
-            <input type="file" id="audioInput" accept="audio/*" />
-            <button onclick="processFile()">🎬 Make It Speak!</button>
-        </div>
-        
-        <div id="output"></div>
-    </div>
+  <!-- Embed Hugging Face Space -->
+  <iframe 
+    src="https://huggingface.co/spaces/fabiolamp/wav2lip_fab_GPU?embed=true" 
+    allow="fullscreen">
+  </iframe>
 
-    <script src="app.js"></script>
+  <footer>
+    Powered by <a href="https://huggingface.co/spaces/fabiolamp/wav2lip_fab_GPU" target="_blank">Hugging Face Wav2Lip Space</a>
+  </footer>
 </body>
 </html>
