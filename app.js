@@ -26,7 +26,7 @@ async function processFile() {
 
     try {
         const response = await fetch(
-            "https://hf.space/embed/fabiolamp/wav2lip_fab_GPU/api/predict/",
+            "https://huggingface.co/spaces/fabiolamp/wav2lip_fab_GPU",
             {
                 method: "POST",
                 headers: {
